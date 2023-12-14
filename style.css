@@ -1,0 +1,70 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+:root{
+  --primaryColor:#9400ff;
+  --radius: 3px;
+}
+
+ body{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--primaryColor);
+ }
+
+ main{
+  width: 90%;
+  max-width: 400px;
+  height: 205px;
+  background-color: white;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  overflow: hidden;
+  transition: .2s;
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+}
+ .show{
+  height: 480px;
+ }
+
+ input{
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid var(--primaryColor);
+  border-radius: var(--radius);
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+}
+
+ button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: var(--primaryColor);
+  border: none;
+  border-radius: var(--radius);
+  color: white;
+  font-weight: bold;
+ }
+
+ .qrbox{
+  text-align: center;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 2px solid var(--primaryColor);
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+}
